@@ -101,6 +101,29 @@ img {
     from {opacity: 0; transform: translateY(20px);}
     to {opacity: 1; transform: translateY(0);}
 }
+.email-preview {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.email-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.email-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.email-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
 </style>
 </head>
 
@@ -140,6 +163,27 @@ img {
             • Response-Seeking Email<br>
             • Follow-Up Sequence
         </p>
+    </div>
+</section>
+    
+<section>
+    <h2>Sample Email Campaign</h2>
+
+    <div class="card email-preview">
+        <div class="email-text">
+            <h3>Industry Case Study Email</h3>
+            <p><strong>Subject Line:</strong> Improve Emission Control Efficiency in Cement Plants</p>
+            <p>
+                To know more about our successful project at a well-known cement manufacturing facility,
+                explore how our advanced dust collection system improved air quality,
+                reduced airborne particles, and ensured regulatory compliance.
+            </p>
+            <p><strong>CTA:</strong> Download Full Case Study</p>
+        </div>
+
+        <div class="email-image">
+            <img src="Sample Email.png" alt="Sample Email (2)">
+        </div>
     </div>
 </section>
 
