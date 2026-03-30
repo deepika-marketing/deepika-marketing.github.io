@@ -1,67 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Dipika Kshirsagar | Email Marketing Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f6f8;
-      color: #333;
-    }
-    h1 {
-      color: #0f172a;
-    }
-    .section {
-      margin-bottom: 40px;
-      padding: 20px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dipika Kshirsagar | Email Marketing Strategist</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    color: #38bdf8;
+}
+
+p {
+    font-size: 18px;
+    max-width: 800px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.highlight {
+    color: #38bdf8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    background: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+.card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+</style>
 </head>
+
 <body>
 
-<h1>Dipika Kshirsagar</h1>
-<p>Email Marketing Strategist | Automation | B2B Lead Nurturing</p>
+<section class="hero">
+    <h1>Hi, I'm <span class="highlight">Dipika Kshirsagar</span></h1>
+    <p>
+        Email Marketing & Automation Strategist helping B2B businesses 
+        generate qualified leads through structured nurture sequences, 
+        behavioral segmentation, and performance-driven campaigns.
+    </p>
+    <a href="#case-study" class="btn">View Case Study</a>
+</section>
 
-<div class="section">
-  <h2>About Me</h2>
-  <p>
-  Results-driven email marketer with experience in B2B industrial marketing.
-  Specialized in automation workflows, segmentation, and conversion optimization.
-  </p>
-</div>
+<section>
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            Results-driven email marketing specialist with experience in 
+            B2B industrial marketing. I design full-funnel automation workflows 
+            that move prospects from awareness to conversion using 
+            data-backed strategy and persuasive storytelling.
+        </p>
+    </div>
+</section>
 
-<div class="section">
-  <h2>Email Automation Flow</h2>
-  <ul>
-    <li>Introductory Email – Product Overview</li>
-    <li>Product Types – Industry-Based</li>
-    <li>Regulatory Norms & Technical Benefits</li>
-    <li>Case Study Email</li>
-    <li>Conclusion</li>
-    <li>Response Seeking Email</li>
-    <li>Follow-ups</li>
-  </ul>
-</div>
+<section>
+    <h2>Email Automation Flow</h2>
+    <div class="card">
+        <p>
+            • Introductory Email – Product Overview<br>
+            • Industry-Based Product Specifications<br>
+            • Regulatory Norms & Technical Benefits<br>
+            • Relevant Case Study<br>
+            • Strategic Conclusion<br>
+            • Response-Seeking Email<br>
+            • Follow-Up Sequence
+        </p>
+    </div>
+</section>
 
-<div class="section">
-  <h2>Campaign Results</h2>
-  <ul>
-    <li>27% Open Rate</li>
-    <li>5.2% CTR</li>
-    <li>350+ Qualified Leads</li>
-    <li>15% Increase in Conversions</li>
-  </ul>
-</div>
+<section id="case-study">
+    <h2>Campaign Performance</h2>
+    <div class="card">
+        <p>
+            ✔ 27% Average Open Rate<br>
+            ✔ 5.2% Click-Through Rate<br>
+            ✔ 350+ Qualified Leads Generated<br>
+            ✔ 15% Increase in Conversion Rate
+        </p>
+    </div>
+</section>
 
-<div class="section">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>LinkedIn: linkedin.com/in/yourprofile</p>
-</div>
+<section>
+    <h2>Automation Flow Visual</h2>
+    <div class="card">
+        <p>Sample Automation Workflow:</p>
+        <img src="YOUR-IMAGE-LINK-HERE" alt="Automation Flow">
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: your@email.com</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    </div>
+</section>
 
 </body>
 </html>
