@@ -167,6 +167,35 @@ img {
     font-weight: 600;
     color: #38bdf8;
 }
+    .email-grid {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.email-content {
+    flex: 1;
+    min-width: 280px;
+}
+
+.email-img {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.email-img img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.email-img img:hover {
+    transform: scale(1.05);
+}
 </style>
 </head>
 
