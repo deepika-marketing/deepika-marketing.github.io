@@ -124,6 +124,49 @@ img {
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
+    .case-study {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.case-text {
+    flex: 1;
+    min-width: 320px;
+}
+
+.case-image {
+    flex: 1;
+    min-width: 320px;
+}
+
+.case-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease;
+}
+
+.case-image img:hover {
+    transform: scale(1.05);
+}
+
+.metric-box {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.metric {
+    background: #111827;
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #38bdf8;
+}
 </style>
 </head>
 
@@ -221,6 +264,43 @@ img {
         
         <p><strong>Tools Used:</strong><br>
         Excel | Salesforce | Brevo | LinkedIn Sales Navigator</p>
+    </div>
+</section>
+    <section>
+    <h2>Featured Case Study</h2>
+
+    <div class="card case-study">
+        
+        <div class="case-text">
+            <h3>B2B Email Automation – Industrial Manufacturing</h3>
+
+            <p><strong>Challenge:</strong><br>
+            Exhibition leads and website inquiries were not converting into 
+            qualified sales conversations.</p>
+
+            <p><strong>Strategy:</strong><br>
+            Designed a 7-step segmented automation workflow including 
+            product education, regulatory compliance insights, 
+            industry-based specifications, and strong CTA follow-ups.</p>
+
+            <p><strong>Execution:</strong><br>
+            • Industry-based segmentation<br>
+            • CRM tracking & lead scoring<br>
+            • Personalized subject lines<br>
+            • Weekly performance optimization</p>
+
+            <div class="metric-box">
+                <div class="metric">65% Open Rate</div>
+                <div class="metric">5.2% CTR</div>
+                <div class="metric">30+ Qualified Leads</div>
+                <div class="metric">15% Conversion Growth</div>
+            </div>
+        </div>
+
+        <div class="case-image">
+            <img src="case-study-image.png" alt="Email Campaign Case Study">
+        </div>
+
     </div>
 </section>
     
