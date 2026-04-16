@@ -196,6 +196,34 @@ img {
 .email-img img:hover {
     transform: scale(1.05);
 }
+    .tools-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.tool {
+    width: 140px;
+}
+
+.tool img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tool img:hover {
+    transform: scale(1.1);
+}
+
+.tool p {
+    font-size: 14px;
+    font-weight: 500;
+}
 </style>
 </head>
 
@@ -221,7 +249,48 @@ img {
         </p>
     </div>
 </section>
+<section>
+    <h2>Skills & Tools</h2>
 
+    <div class="card tools-section">
+
+        <div class="tool">
+            <img src="linkedin-sales-navigator.png" alt="LinkedIn Sales Navigator">
+            <p>LinkedIn Sales Navigator</p>
+        </div>
+
+        <div class="tool">
+            <img src="salesforce.png" alt="Salesforce">
+            <p>Salesforce</p>
+        </div>
+
+        <div class="tool">
+            <img src="frappe.png" alt="Frappe CRM">
+            <p>Frappe CRM</p>
+        </div>
+
+        <div class="tool">
+            <img src="brevo.png" alt="Brevo">
+            <p>Brevo</p>
+        </div>
+
+        <div class="tool">
+            <img src="excel.png" alt="MS Excel">
+            <p>MS Excel</p>
+        </div>
+
+        <div class="tool">
+            <img src="tableau.png" alt="Tableau">
+            <p>Tableau</p>
+        </div>
+
+        <div class="tool">
+            <img src="hubspot.png" alt="HubSpot">
+            <p>HubSpot</p>
+        </div>
+
+    </div>
+</section>
 <section>
     <h2>Email Flow</h2>
     <div class="card">
